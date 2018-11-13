@@ -1,6 +1,6 @@
 # test-project
 
-> A Vue.js project
+> A Vue.js test project showing the current and recent water gauge of river Trave in Germnay
 
 ## Build Setup
 
