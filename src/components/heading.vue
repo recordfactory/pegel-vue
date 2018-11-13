@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class='hello'>
     <h1>{{ titel }}</h1>
     <h2>{{ messstelle }}</h2>
   </div>
@@ -7,17 +7,17 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   data() {
     return {
-      titel: "Pegel Trave",
-      messstelle: "Lübeck-Bauhof"
+      titel: 'Pegel Trave',
+      messstelle: 'Lübeck-Bauhof',
     };
-  }
+  },
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add 'scoped' attribute to limit CSS to this component only -->
 <style scoped>
 h1,
 h2 {
