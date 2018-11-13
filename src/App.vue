@@ -1,20 +1,23 @@
 <template>
-  <div id="app"><HelloWorld /> <axi /><pegel /></div>
+  <div id="app">
+    <heading /> <aktuell />
+    <div id="chart"><pegel /></div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import heading from "./components/heading";
 //import myvue from "./components/myvue";
 //import commitchart from "./components/commitchart";
-import axi from "./components/axi";
+import aktuell from "./components/pegelaktuell";
 import pegel from "./components/pegelstaende";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    heading,
     //myvue,
     // commitchart,
-    axi,
+    aktuell,
     pegel
   }
 };
@@ -22,14 +25,17 @@ export default {
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  height: 100%;
 }
-pegel {
-  height: 300px;
+#chart {
+  height: 200px;
+  margin: auto;
 }
 </style>
