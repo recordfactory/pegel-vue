@@ -23,7 +23,6 @@ export default {
   mounted() {
     axios
       .get(url)
-
       .then((response) => {
         if (response.data) {
           // var ar = response.data;
