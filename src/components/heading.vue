@@ -10,8 +10,8 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      titel: 'Aktueller Pegel der Trave',
-      messstelle: 'Lübeck-Bauhof',
+      titel: 'Pegel der Trave',
+      messstelle: 'Lübeck-Bauhof, aktuell',
     };
   },
 };

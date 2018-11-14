@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Line } from 'vue-chartjs';
-
+import { urlTraveBauhof } from '../main';
 
 const _ = require('lodash');
 
@@ -9,8 +9,8 @@ const time = [];
 let fd;
 
 
-const url =
-  'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/f4f9f7fb-eeff-46dc-9727-04d8aa56240a/W/measurements.json?start=P1D';
+/* const url =
+  'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/f4f9f7fb-eeff-46dc-9727-04d8aa56240a/W/measurements.json?start=P1D'; */
 
 export default {
   extends: Line,
@@ -22,7 +22,7 @@ export default {
   },
   mounted() {
     axios
-      .get(url)
+      .get(urlTraveBauhof)
       .then((response) => {
         if (response.data) {
           // var ar = response.data;

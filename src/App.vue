@@ -1,9 +1,12 @@
 <template>
   <div id='app'>
 
-    <heading /> <aktuell /><br>
-    <div id="chart"><div id="heading1">
-  <heading1 title="Lübeck-Bauhof"></heading1>
+    <heading />
+    <aktuell />
+    <br>
+    <div id="chart">
+      <div id="heading2">
+  <heading2 title="Lübeck-Bauhof" subtitle="Ganglinie"></heading2>
 </div>
 <pegel />
 </div>
@@ -12,8 +15,6 @@
 
 <script>
 import heading from './components/heading';
-// import myvue from './components/myvue';
-// import commitchart from './components/commitchart';
 import aktuell from './components/pegelaktuell';
 import pegel from './components/pegelstaende';
 
@@ -36,11 +37,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 #chart {
   /*height: 50%;*/
   width: 30%;
-  height: 250px !important;
+  /* height: 250px !important; */
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
   <div>
     {{ datum | date }} <br />
-    <br />
-    <div class="aktuellerPegelstand">{{ pegel / 100 }} m </div><br />
+    <br>
+    <div class="aktuellerPegelstand">{{ pegel / 100 }} m </div><br>
   </div>
 
 </template>
