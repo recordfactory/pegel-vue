@@ -13,3 +13,8 @@ new Vue({
   components: { App },
   template: '<App/>',
 });
+
+Vue.component('heading1', {
+  props: ['title'],
+  template: '<h2>{{ title }}</h2>',
+});

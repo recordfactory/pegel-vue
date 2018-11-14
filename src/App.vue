@@ -1,6 +1,12 @@
 <template>
   <div id='app'>
-    <heading /> <aktuell /><div id="chart"><pegel /></div>
+
+    <heading /> <aktuell /><br>
+    <div id="chart"><div id="heading1">
+  <heading1 title="Lübeck-Bauhof"></heading1>
+</div>
+<pegel />
+</div>
   </div>
 </template>
 

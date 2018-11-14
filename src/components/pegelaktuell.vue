@@ -2,8 +2,9 @@
   <div>
     {{ datum | date }} <br />
     <br />
-    {{ pegel / 100 }} m <br />
+    <div class="aktuellerPegelstand">{{ pegel / 100 }} m </div><br />
   </div>
+
 </template>
 <script>
 /* eslint-disable */
@@ -30,3 +31,8 @@ export default {
   }
 };
 </script>
+<style>
+.aktuellerPegelstand{
+  font-size: 2em;
+}
+</style>
