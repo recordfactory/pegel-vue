@@ -3,16 +3,16 @@
     <heading />
     <aktuell />
     <br>
-    <div id="pegeldiagramme">
-      <div id="chart">
-        <div id="heading2">
-          <heading2 title="Lübeck-Bauhof" subtitle="24h"></heading2>
+    <div id='pegeldiagramme'>
+      <div id='chart'>
+        <div id='heading2'>
+          <heading2 title='Lübeck-Bauhof' subtitle='24h'></heading2>
         </div>
         <pegel />
         </div>
-    <div id="chart2">
-      <div id="heading3">
-          <heading2 title="Travemünde" subtitle="24h"></heading2>
+    <div id='chart2'>
+      <div id='heading3'>
+          <heading2 title='Travemünde' subtitle='24h'></heading2>
       </div>
       <pegel2 />
       </div>
@@ -31,8 +31,6 @@ export default {
   name: 'App',
   components: {
     heading,
-    // myvue,
-    // commitchart,
     aktuell,
     pegel,
     pegel2,
@@ -46,16 +44,14 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #234970;
   margin-top: 10px;
 }
 #chart,
 #chart2 {
-  /*height: 50%;*/
-  width: 30%;
-  /* height: 250px !important; */
+  text-align: center;
+  width: 39%;
+  display: inline-block;
 }
-#pegeldiagramme {
-  width: 100%;
-}
+
 </style>

@@ -9,9 +9,6 @@ const time = [];
 let fd;
 
 
-/* const url =
-  'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/f4f9f7fb-eeff-46dc-9727-04d8aa56240a/W/measurements.json?start=P1D'; */
-
 export default {
   extends: Line,
   data() {
@@ -48,7 +45,7 @@ export default {
             datasets: [
               {
                 label: 'Wasserstand in m',
-                borderColor: 'blue',
+                borderColor: 'navy',
                 borderWidth: '1',
                 pointBorderWidth: '0.5',
                 pointRadius: '2',

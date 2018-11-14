@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       titel: 'Pegel der Trave',
-      messstelle: 'Lübeck-Bauhof, aktuell',
+      messstelle: 'Lübeck-Bauhof aktuell',
     };
   },
 };

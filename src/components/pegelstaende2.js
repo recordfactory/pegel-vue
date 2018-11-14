@@ -48,7 +48,7 @@ export default {
             datasets: [
               {
                 label: 'Wasserstand in m',
-                borderColor: 'green',
+                borderColor: '#234970',
                 borderWidth: '1',
                 pointBorderWidth: '0.5',
                 pointRadius: '2',
