@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'heading',
   data() {
     return {
       titel: 'Pegel der Trave',

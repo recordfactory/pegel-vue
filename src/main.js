@@ -7,6 +7,8 @@ import DateFilter from './filters/date';
 // eslint-disable-next-line import/prefer-default-export
 export const urlTraveBauhof = 'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/f4f9f7fb-eeff-46dc-9727-04d8aa56240a/W/measurements.json?start=P1D';
 
+export const urlTravemuende = 'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/c7383149-1f77-430d-8bef-c5667be3846b/W/measurements.json?start=P1D';
+
 Vue.config.productionTip = false;
 Vue.filter('date', DateFilter);
 

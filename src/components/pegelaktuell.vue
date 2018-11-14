@@ -2,16 +2,16 @@
   <div>
     {{ datum | date }} <br />
     <br>
-    <div class="aktuellerPegelstand">{{ pegel / 100 }} m </div><br>
+    <div class='aktuellerPegelstand'>{{ pegel / 100 }} m </div><br>
   </div>
 
 </template>
 <script>
 /* eslint-disable */
-import axios from "axios";
+import axios from 'axios';
 
 const url =
-  "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/L%C3%9CBECK-BAUHOF/W/currentmeasurement.json";
+  'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/L%C3%9CBECK-BAUHOF/W/currentmeasurement.json';
 
 export default {
   data() {
