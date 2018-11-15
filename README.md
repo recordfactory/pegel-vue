@@ -1,8 +1,8 @@
 # test-project
 
 > A Vue.js test project showing the current and recent water gauge of river Trave in Germany
-> Just for learning vue :-)
-> So don't wonder if this has terribly dull mistakes...
+> Just for learning vue
+> So don't wonder if this has terribly dull mistakes... :-)
 
 ## Build Setup
 
