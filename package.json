@@ -16,7 +16,6 @@
     "axios": "0.18.0",
     "chart.js": "2.7.3",
     "lodash": "4.17.11",
-    "moment": "2.22.2",
     "vue": "^2.5.2",
     "vue-axios": "2.1.4",
     "vue-chartjs": "3.4.0"
@@ -76,5 +75,9 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }

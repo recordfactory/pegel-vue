@@ -9,18 +9,15 @@ export const urlTraveBauhof = 'https://www.pegelonline.wsv.de/webservices/rest-a
 
 export const urlTravemuende = 'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/c7383149-1f77-430d-8bef-c5667be3846b/W/measurements.json?start=P1D';
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = true;
 Vue.filter('date', DateFilter);
-
+Vue.component('heading2', {
+  props: ['title', 'subtitle'],
+  template: '<div><h2>{{ title }}</h2><h3>{{ subtitle }}</h3></div>',
+});
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   components: { App },
   template: '<App/>',
 });
-
-Vue.component('heading2', {
-  props: ['title', 'subtitle'],
-  template: '<div><h2>{{ title }}</h2><h3>{{ subtitle }}</h3></div>',
-});
-

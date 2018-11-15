@@ -8,7 +8,9 @@
         <div id='heading2'>
           <heading2 title='Lübeck-Bauhof' subtitle='24h'></heading2>
         </div>
+
         <pegel />
+
         </div>
     <div id='chart2'>
       <div id='heading3'>
@@ -50,8 +52,7 @@ export default {
 #chart,
 #chart2 {
   text-align: center;
-  width: 39%;
+  width: 30%;
   display: inline-block;
 }
-
 </style>
