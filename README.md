@@ -1,4 +1,4 @@
-# test-project
+# River Trave Gauges
 
 > A Vue.js test project showing the current and recent water gauge of river Trave in Germany.
 > Just to learn and test vue.
